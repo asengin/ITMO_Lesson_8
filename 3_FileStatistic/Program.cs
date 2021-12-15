@@ -19,7 +19,7 @@ namespace _3_FileStatistic
             int charCount = 0;
             int lineCount = 0;
             int wordCount = 0;
-            string line;
+            string lineFromFile;
 
             if (!File.Exists(path)) //Блок проверки наличия файла
             {
@@ -31,12 +31,12 @@ namespace _3_FileStatistic
             using (StreamReader Reader = new StreamReader(path))
             {
                 Console.WriteLine("Содержимое файла\n\n-----Начало-----");
-                while ((line = Reader.ReadLine()) != null) //Значение null - конец входного потока. Цикл выполняется пока его не достигнет
+                while ((lineFromFile = Reader.ReadLine()) != null) //Значение null - конец входного потока. Цикл выполняется пока его не достигнет
                 {
-                    Console.WriteLine(line); //Считываем строку
+                    Console.WriteLine(lineFromFile); //Выводим строку
                     lineCount++; //Увеличиваем счетчик строк
-                    charCount += line.Length; //Подсчитываем длину строки
-                    wordCount += line.Split().Length; //Разбиваем строку на массив строк с разделителем пробел, считываем количество.
+                    charCount += lineFromFile.Length; //Подсчитываем длину строки
+                    wordCount += lineFromFile.Split().Length; //Разбиваем строку на массив строк с разделителем пробел, считываем количество.
                     #region Отладка
                     //for (int i = 0; i <= line.Length; i++)
                     //    charCount++;
