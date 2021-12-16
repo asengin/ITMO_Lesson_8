@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_TxtRandomWrite", "2_TxtRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_FileStatistic", "3_FileStatistic\3_FileStatistic.csproj", "{3EE14BC4-4883-4C59-8FC0-FF96212283AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_FoldersContent", "1_FoldersContent\1_FoldersContent.csproj", "{35373D3E-0C29-4738-BE23-6DB0D8827F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3EE14BC4-4883-4C59-8FC0-FF96212283AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE14BC4-4883-4C59-8FC0-FF96212283AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE14BC4-4883-4C59-8FC0-FF96212283AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35373D3E-0C29-4738-BE23-6DB0D8827F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35373D3E-0C29-4738-BE23-6DB0D8827F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35373D3E-0C29-4738-BE23-6DB0D8827F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35373D3E-0C29-4738-BE23-6DB0D8827F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
